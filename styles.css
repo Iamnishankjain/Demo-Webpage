@@ -1,0 +1,149 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 100px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #f0f0f0, #ccc);
+}
+
+.hero img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.scroll-down:hover {
+    background-color: #3e8e41;
+}
+
+.nav-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #ccc;
+}
+
+.student-details {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.student-details h2 {
+    margin-top: 0;
+}
+
+.toggle-details {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.toggle-details:hover {
+    background-color: #3e8e41;
+}
+
+.additional-details {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.skills {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.projects {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.experience {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.education {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
+
+.school {
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+}
